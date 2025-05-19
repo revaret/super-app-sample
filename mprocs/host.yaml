@@ -1,0 +1,7 @@
+procs:
+  Host:
+    shell: pnpm --filter host start
+    stop: SIGKILL
+  Mini:
+    shell: pnpm --filter mini start
+    stop: SIGKILL
